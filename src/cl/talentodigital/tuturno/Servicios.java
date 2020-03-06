@@ -1,6 +1,6 @@
 package cl.talentodigital.tuturno;
 
-public class Servicios {
+public class Servicios extends Object{
 
     private int id;
     private Categoria categoria;

@@ -5,7 +5,7 @@ public class Turno {
     private String numero;
     private Servicios servicios;
     private String hora;
-    private String rut;
+    private Persona persona;
 
     public int getId() {
         return id;
@@ -39,11 +39,16 @@ public class Turno {
         this.hora = hora;
     }
 
-    public String getRut() {
-        return rut;
+    public Persona getPersona() {
+        return persona;
     }
 
-    public void setRut(String rut) {
-        this.rut = rut;
+    public void setPersona(Persona persona) {
+        this.persona = persona;
+    }
+
+    @Override
+    public String toString() {
+        return numero;
     }
 }
